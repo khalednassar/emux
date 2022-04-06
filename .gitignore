@@ -13,7 +13,7 @@ removed-files
 # EMUX Images only for private distribution #
 ##############################################
 files/emux/[A-Z0-9]*
-files/emux/devices-extra
+!files/emux/devices-extra
 !files/emux/devices
 !files/emux/qemuopts
 !files/emux/run
@@ -31,6 +31,7 @@ files/emux/devices-extra
 !files/emux/debuglogs
 !files/emux/logs
 !files/emux/dtb
+!files/emux/ARCHERC3200
 
 *.swp
 *.psd
