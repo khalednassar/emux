@@ -1,0 +1,8 @@
+# Archer C3200 EMUX config file
+#
+id=ARCHERC3200
+nvram=nvram_C9.ini
+rootfs=rootfs
+randomize_va_space=0
+ld_preload=preload
+initcommands="/etc/init.d/rcS;/bin/sh"
